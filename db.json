@@ -1,0 +1,149 @@
+{
+  "categorys": [
+    {
+      "id": 1,
+      "name": "Điện Thoại"
+    },
+    {
+      "id": 2,
+      "name": "Laptop"
+    },
+    {
+      "id": 3,
+      "name": "Âm Thanh"
+    },
+    {
+      "id": 4,
+      "name": "Máy tính bảng"
+    }
+  ],
+  "categorybrands": [
+    {
+      "id": 1,
+      "name": "Iphone",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Ausus",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Ipad samsung",
+      "categoryId": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "iphone 11 pro1",
+      "originalPrice": 11000000,
+      "saleOffPrice": 10000000,
+      "optionId": 1,
+      "feature": "ok",
+      "description": "ok",
+      "shortDescription": "ổn",
+      "image": "http://res.cloudinary.com/df6zs06nu/image/upload/v1658058205/pxd6bkzxfxhgqgebfgu8.jpg",
+      "id": 1
+    },
+    {
+      "name": "iphone 11 pro1",
+      "originalPrice": 11000000,
+      "saleOffPrice": 10000000,
+      "optionId": 1,
+      "feature": "ok",
+      "description": "ok",
+      "shortDescription": "ổn",
+      "image": "http://res.cloudinary.com/df6zs06nu/image/upload/v1658058205/pxd6bkzxfxhgqgebfgu8.jpg",
+      "id": 2
+    },
+    {
+      "name": "le thi trang",
+      "originalPrice": 30090,
+      "saleOffPrice": 20090,
+      "categorybrandId": 1,
+      "feature": "ten toi la le thi trang",
+      "description": "nam nay 20 tuoi xuan",
+      "shortDescription": "ten la le thi trang",
+      "image": "http://res.cloudinary.com/truongnqph14659/image/upload/v1658384221/ymttzchari3kgnyccjqg.jpg",
+      "id": 3
+    },
+    {
+      "name": "nguyen minh trang",
+      "originalPrice": 30090,
+      "saleOffPrice": 20090,
+      "categorybrandId": 1,
+      "feature": "dsad",
+      "description": "asd",
+      "shortDescription": "ten toi la le thi trang",
+      "image": "http://res.cloudinary.com/truongnqph14659/image/upload/v1658385247/zgvn2q1d3j17xlizw5j4.jpg",
+      "id": 4
+    },
+    {
+      "name": "toi la truong",
+      "originalPrice": 30090,
+      "saleOffPrice": 20090,
+      "categorybrandId": 1,
+      "feature": "dsads",
+      "description": "ads",
+      "shortDescription": "toi la truong",
+      "image": "http://res.cloudinary.com/truongnqph14659/image/upload/v1658385718/vyavvgmuxps5edduz9nr.jpg",
+      "id": 5
+    },
+    {
+      "name": "rerwerw",
+      "originalPrice": 30090,
+      "saleOffPrice": 20090,
+      "categorybrandId": 1,
+      "feature": "wreerw",
+      "description": "err",
+      "shortDescription": "adasd",
+      "image": "http://res.cloudinary.com/truongnqph14659/image/upload/v1658385818/z5goq2lspqiaa6hgcqzx.jpg",
+      "id": 6
+    },
+    {
+      "name": "toi la truong",
+      "originalPrice": 30090,
+      "saleOffPrice": 20090,
+      "categorybrandId": 1,
+      "feature": "qweq",
+      "description": "we",
+      "shortDescription": "eqeqweq",
+      "image": "http://res.cloudinary.com/truongnqph14659/image/upload/v1658385951/oxuk5tsun9tmi7ripjrs.jpg",
+      "id": 7
+    },
+    {
+      "name": "nguyen minh trang",
+      "originalPrice": 30090,
+      "saleOffPrice": 20090,
+      "categorybrandId": 1,
+      "feature": "werewrw",
+      "description": "erwer",
+      "shortDescription": "wrwer",
+      "image": "http://res.cloudinary.com/truongnqph14659/image/upload/v1658386048/tkbruwauzp59crj6fc1g.jpg",
+      "id": 8
+    },
+    {
+      "name": "toi nay",
+      "originalPrice": 30090,
+      "saleOffPrice": 20090,
+      "categorybrandId": 1,
+      "feature": "sada",
+      "description": "asda",
+      "shortDescription": "ddasd",
+      "image": "http://res.cloudinary.com/truongnqph14659/image/upload/v1658386286/ytcjyha0nuetx9kr9jvi.jpg",
+      "id": 9
+    },
+    {
+      "name": "toi la truong",
+      "originalPrice": 30090,
+      "saleOffPrice": 20090,
+      "categorybrandId": 1,
+      "feature": "sada",
+      "description": "ad",
+      "shortDescription": "toi la bui quan ngoc",
+      "image": "http://res.cloudinary.com/truongnqph14659/image/upload/v1658386375/fdxaxxxw9fjkjh8prmzo.jpg",
+      "id": 10
+    }
+  ]
+}
