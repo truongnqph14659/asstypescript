@@ -1,6 +1,234 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-span.error {
+
+label.error {
   color: red;
+  border: red;
+}
+textarea.error,
+input.error,
+select.error {
+  border: 1px solid red;
+}
+
+.menu-header li {
+  display: flex;
+  display: inline-block;
+  align-items: center;
+  color: #fff;
+  padding: 0 15px;
+  justify-content: center;
+}
+
+.menu-navber li {
+  margin-bottom: 8px;
+}
+
+img,
+video {
+  max-width: none;
+  height: none;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.banner_user {
+  padding: 15px 100px;
+}
+
+.banner_user .nav {
+  float: left;
+}
+
+.banner_user .images {
+  float: left;
+  padding-left: 15px;
+}
+
+.banner_user .nav ul {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.banner_user .nav ul li {
+  padding: 3px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_user .nav ul li a {
+  color: black;
+}
+
+.banner_user .nav ul li i {
+  text-align: right;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+
+.banner_user .nav ul li a:hover {
+  text-decoration: none;
+}
+
+.banner_user .nav ul li:hover {
+  background-color: #00b0d7;
+  border-radius: 7px;
+}
+
+.images img {
+  height: 300px;
+}
+.footer .top_footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.footer .container p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.footer .container .title {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.footer .bottom_footer {
+  background-color: #f8f8f8;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.footer .bottom_footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.footer .col-4 p {
+  text-align: left;
+}
+
+.title_giohang {
+  font-size: 25px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.table thead {
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table tbody {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.a {
+  width: 200px;
+}
+
+.b {
+  width: 355px;
+}
+
+.c {
+  width: 165px;
+}
+
+.rounded {
+  width: 154px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.form-control {
+  width: 50px;
+}
+
+.d-grid .btn {
+  width: 80px;
+  display: inline-block;
+}
+
+.mobile_tr_text {
+  height: 40px;
+}
+
+.table_payment tbody {
+  height: 120px;
+}
+
+.table_payment tbody tr {
+  height: 40px;
+  vertical-align: center;
+  text-align: center;
+}
+
+.payment_button {
+  display: inline;
+  padding: 10px 20px;
+  background-color: #e4dada;
+  text-transform: capitalize;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
+}
+
+.payment_button a {
+  color: var(--background-footer_3);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.payment_button:active {
+  background-color: rgb(131, 155, 141);
+}
+
+.price_text {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.price_number {
+  color: red;
+  font-size: 30px;
+}
+
+.card-body {
+  width: 220px;
+  text-transform: lowercase;
+  background-color: #439536;
+  border: 0;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.card-body a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.continue_purchase {
+  padding-top: 85px;
+}
+
+.mobile_responsive {
+  display: none;
+}
+.showSearch {
+  display: block;
 }
